@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3 Pemograman web</title>
+  </head>
+  <body>
+    <div>
+      <label for="keyword">Search</label>
+      <input
+        type="search"
+        name="keyword"
+        id="keyword"
+        onkeyup="handleSearch()"
+      />
+    </div>
+    <div>Cari Barang: <span style="border: 2px solid blue;" id="cari"></span></div>
+    <section>
+      <h2>Toko Helm</h2>
+      <div
+        id="placeholder"
+        style="display: flex; flex-wrap: wrap; gap: 50px;"
+      ></div>
+    </section>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
